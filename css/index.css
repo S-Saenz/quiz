@@ -1,0 +1,53 @@
+body{
+    margin:0px;
+}
+
+.head{
+    margin-top:20px;
+}
+
+#number {
+    font-size:100px;
+    margin:0px;
+    font-family:helvetica;
+    font-weight:100;
+}
+
+h1,h2,p{
+    display:inline-block;
+}
+#levelOne span {
+    padding:100px;
+    border-bottom:#000 solid 1px;
+}
+
+#levelOne, #levelTwo{
+    font-size: 40px;
+    text-align:center;
+}
+
+.a{
+    padding:50px;
+}
+.a:hover{
+    cursor:pointer;
+}
+#a1, #a3 {
+    border-right:#000 1px solid;
+}
+
+#score {
+    text-align: center;
+    font-weight: 100;
+    font-size:20px;
+    margin: 0px 20px;
+}
+
+
+
+
+
+
+
+
+

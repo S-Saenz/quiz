@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+</head>
+<body>
+    <div id="body">
+        <div class="head">
+            <h1 id="number">2</h1>
+            <h2 id="question">이것은 어떤 언어이다?</h2>
+        </div>
+        <hr/>
+        <div id="levels">
+            <div id="levelOne">
+                <span>
+                    <p class="a" id="a1" onclick="myFunction(this.id)">Chinese</p>
+                    <p class="a" id="a2" onclick="myFunction(this.id)">Korean</p>
+                </span>
+            </div>
+            <div id="levelTwo">
+                <p class="a" id="a3" onclick="myFunction(this.id)">Russian</p>
+                <p class="a" id="a4" onclick="myFunction(this.id)">Arabic</p>
+            </div>
+        </div>
+        <p id="score"></p>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
